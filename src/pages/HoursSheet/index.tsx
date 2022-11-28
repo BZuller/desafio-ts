@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import IUserHours from '../../interfaces/timesheet';
 import TimesheetService from '../../services/timesheet.service';
-import calculateTotalExtraHours, { calculateTotalMissingHours, calculateWorkedHours } from '../../utils/hoursCalc';
+import calculateTotalExtraHours, { calculateTotalMissingHours, calculateWorkedHours } from '../../functions/hoursCalc';
 
 export default function HoursSheet(): React.ReactElement {
   const [hours, setHours] = useState<IUserHours[]>([]);
