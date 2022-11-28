@@ -1,0 +1,78 @@
+@import '../../theme/variables.scss';
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+.table {
+  background-color: $tableGrey;
+  width: 80%;
+  border-radius: 4px;
+}
+
+.tableHeader {
+  height: 56px;
+}
+
+.headerText {
+  border-right: 1px solid $borderGrey;
+  text-align: left;
+  padding-left: 1%;
+}
+
+.headerText1 {
+  width: 25.87rem;
+  border-right: 1px solid $borderGrey;
+  text-align: left;
+  padding-left: 1%;
+}
+
+.headerText2 {
+  width: 16.5rem;
+  border-right: 1px solid $borderGrey;
+  text-align: left;
+  padding-left: 1%;
+}
+
+.headerText3 {
+  width: 9.81rem;
+  border-right: 1px solid $borderGrey;
+  text-align: left;
+  padding-left: 1%;
+}
+
+.headerText4 {
+  width: 10.43rem;
+  border-right: 1px solid $borderGrey;
+  text-align: left;
+  padding-left: 1%;
+}
+
+.headerText5 {
+  width: 18.31rem;
+  border-right: 1px solid $borderGrey;
+  text-align: left;
+  padding-left: 1%;
+}
+
+.tableData {
+  padding-left: 1%;
+  border-right: 1px solid $borderGrey;
+}
+
+.tableRow {
+  width: 100%;
+  height: 56px;
+  text-align: left;
+  background-color: $sheetBackground;
+}
+
+.table tbody tr:nth-child(odd) td {
+  background-color: $sheetBackground;
+}
+
+.table tbody tr:nth-child(even) td {
+  background-color: $tableGrey;
+}
